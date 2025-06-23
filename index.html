@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whisper Agency</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcf9f5; /* Light cream background to match the image */
+            color: #4a4a4a; /* Dark gray text color */
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .text-whisper-orange {
+            color: #b1622b; /* Custom color for the brand orange/brown */
+        }
+        .bg-whisper-orange {
+            background-color: #b1622b;
+        }
+        .hover\:bg-whisper-orange-dark:hover {
+            background-color: #9a5426; /* Slightly darker for hover */
+        }
+        .text-whisper-dark {
+            color: #4a4a4a;
+        }
+        .bg-whisper-teal {
+            background-color: #2f7e7e; /* Custom color for the teal button */
+        }
+        .hover\:bg-whisper-teal-dark:hover {
+            background-color: #256666; /* Slightly darker for hover */
+        }
+        /* Custom font for "Whisper Agency" in SVG for a script look */
+        .font-dancing-script {
+            font-family: 'Dancing Script', cursive;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section (SVG Logo) -->
+    <header class="bg-transparent py-8 px-4">
+        <div class="container mx-auto flex flex-col items-start md:items-start">
+            <div class="flex items-center">
+                <svg width="250" height="100" viewBox="0 0 250 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+                    <title id="logoTitle">Whisper Agency Logo</title>
+                    <desc id="logoDesc">Stylized logo with WA and Whisper Agency text.</desc>
+
+                    <!-- Large "W" and "A" -->
+                    <text x="0" y="70" fill="#b1622b" style="font-family: 'Playfair Display', serif; font-size: 80px; font-weight: 700;">W</text>
+                    <text x="100" y="70" fill="#b1622b" style="font-family: 'Playfair Display', serif; font-size: 80px; font-weight: 700;">A</text>
+
+                    <!-- "Whisper Agency" in script style -->
+                    <text x="10" y="85" fill="#2f7e7e" class="font-dancing-script" style="font-size: 32px;">Whisper Agency</text>
+
+                    <!-- "Marketing Specialists" -->
+                    <text x="10" y="95" fill="#4a4a4a" style="font-family: 'Inter', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Marketing Specialists</text>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 px-4 text-left">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-8 text-whisper-dark">
+                Built by Women,<br> for Women
+            </h2>
+            <p class="text-xl md:text-2xl mb-8 text-whisper-dark">
+                Whisper Agency is a female-owned Only-Fans management team dedicated to helping you thrive.
+            </p>
+            <p class="text-xl md:text-2xl italic text-whisper-dark mb-12">
+                Let your voice be heard — with support, strategy, and sisterhood.
+            </p>
+        </div>
+    </section>
+
+    <!-- What Makes Whisper Different Section -->
+    <section class="py-16 px-4 bg-white shadow-sm rounded-lg mx-4 md:mx-auto max-w-4xl">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-8 text-whisper-dark">What Makes Whisper Different</h2>
+            <div class="text-lg text-whisper-dark leading-relaxed">
+                <p class="mb-4">We're not just an agency — we're your team.</p>
+                <p class="mb-6">At Whisper, we understand the journey, because we've walked it too. Our all-female team is here to support-promote, and protect your brand while you keep creative control.</p>
+                <ul class="list-disc pl-8 space-y-3">
+                    <li>100% female-owned and run</li>
+                    <li>You choose your boundaries — we work around you</li>
+                    <li>Customized growth strategy for each model</li>
+                    <li>Discreet, professional, and drama-free</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ready to Join Whisper? Section -->
+    <section class="py-16 px-4 text-center">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl font-bold mb-6 text-whisper-dark">Ready to join Whisper?</h2>
+            <p class="text-lg md:text-xl mb-4 text-whisper-dark">Download our welcome pack and model agreement</p>
+            <p class="text-lg md:text-xl mb-4 text-whisper-dark">Learn more about how we work</p>
+            <p class="text-lg md:text-xl mb-8 text-whisper-dark">Submit your application and get sated within 24 hours</p>
+            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
+                <a href="https://drive.google.com/file/d/1Kd_Da9bY62JOiIIHbENadJWZAnBHZDtH/view?usp=drive_link" target="_blank" class="inline-block bg-whisper-orange text-white font-bold py-4 px-8 rounded-full shadow-lg hover:bg-whisper-orange-dark transform transition-all duration-300 ease-in-out text-lg">
+                    Download Welcome Kit
+                </a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKHes8DSJOKR4N7dTgWZ8qSle6fB63BzSughrWNiMOI10yFQ/viewform?usp=header" target="_blank" class="inline-block bg-whisper-teal text-white font-bold py-4 px-8 rounded-full shadow-lg hover:bg-whisper-teal-dark transform transition-all duration-300 ease-in-out text-lg">
+                    Apply to Join the Agency
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-transparent py-8 px-4 mt-12">
+        <div class="container mx-auto text-center text-whisper-dark">
+            <h3 class="text-2xl font-bold mb-2" style="font-family: 'Playfair Display', serif;">Whisper Agency</h3>
+            <p class="text-md">Discreet • Empowering • Female-Owned</p>
+        </div>
+    </footer>
+
+</body>
+</html>
